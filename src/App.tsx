@@ -45,7 +45,7 @@ const MEMORIES: Memory[] = [
   },
   { 
     id: 2, 
-    url: 'https://images.unsplash.com/photo-1518199266791-739d6ff58b68?auto=format&fit=crop&q=80&w=800', 
+    url: '/Users/apple/Downloads/for-rhema/public/1EBC3525-0BC5-4CF0-9DE8-444CA343F166_1_105_c.jpeg', 
     caption: 'Sunset silhouettes and promises.', 
     story: 'We watched the sky turn from gold to violet, and for a moment, everything was quiet. You looked at me and said you felt like the world was too big, but in that moment, the only world I cared about was right here.\n\nYou have this incredible ability to make even the grandest landscapes feel intimate. This sunset was beautiful, but it was just the backdrop to the conversation we had about our dreams and where we wanted to go. I\'m so glad those paths led us here.',
     date: 'Summer 2023' 
