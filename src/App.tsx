@@ -56,6 +56,36 @@ const LETTERS: Letter[] = [
     content: "I remember when you walked into that room... the air just felt different. Lighter. Better. You have this way of making everything around you bloom, Rhema.",
     signature: "With Love"
   }
+  {
+    id: 1,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
+    signature: "Stephanie"
+  },
+  {
+    id: 1,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
+    signature: "Feyi"
+  },
+    {
+    id: 1,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
+    signature: "Otokini"
+  },
+      {
+    id: 1,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
+    signature: "Dum Dum"
+  },
+        {
+    id: 1,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
+    signature: "Tehilla"
+  },
 ];
 
 export default function App() {
