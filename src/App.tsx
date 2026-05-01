@@ -38,7 +38,7 @@ const RHEMA_NAME = "Rhema";
 const MEMORIES: Memory[] = [
   { 
     id: 1, 
-    url: 'https://lh3.googleusercontent.com/pw/AP1GczOMPNXPT-YiIi_nZO5-FRuElYySxh4gE41vS0x-sIPBDyHvdrSr037yyhg87rgn1x8KMJ8FXbua_XAqq5L9bRFcn8QVNaVXtMXvWROxZbuDAhWLUJQoQ97InPN3HYkuPJaVE-_V1lw-uF6Ct2KsJBSUYkeRxldrWT-qHoW9vXe9J5_CBTrK1CwMRMjo2ttJGaAPIygXdYzRD45wlgjxafqHbK_d-P0K8bvxq0MqHdW20vWmwaYKk7xoTc-hSgkw3tqgEKiy0FVRVTqaPm8Hj2V76FHv7FDDoD_QYqZF5XvzyO5h2AqQRV9FCUNIq9WKFrCxshxOKhFENjQKSEdVtkc6syBVOFR1cn0IM6MOJUM2C121AM_fwbyqnPshbnExSC9l3clptvQVHoVS2csVzNWjc1Ft1-eEQ5_drBxP_XmZDBjXeTbJFLN6AqiVh1ijOszv3kWZik1A3CXFoOFm3229U2oZ1_JSsYxYpyHIvopo8pfaSAdGYi50TsCJk5feX9YRvxEwU_sL_nNsbd6SXcPNb4HYaBGUjdJFMnn-j5oEd54299-IvUOEyMG03Nyr8C3Bi4-qMH82-mk0mrZwKOdluZSIHWqYB7pzYaa3nJjsIudrapyrQjx6BNbIfpaXaWWGg0lk2L4nAQknnyQDmtlplrKis16VVFjABK-5mHRWfxlNvFkZ6oosVDKltYz5MYzy9dKJt3K4npvH6p9O5cfEFBz1zJ_wSdVDUXdLm_nkL76_AY1KcUqors48STwGVst0VEMjtr5J3HKk7FzcyddYgN86h7ALYByipO1codGqhbSZ7_axlKoetxtuZ3s2BnGiKpbTHWwnbSspMn5-gQyuoVr-h_O4fgsbOD5K1mFGQMkor28l-GfluitxyQr9K6nm_63-SYTnWHhZtg4=w1442-h1560-s-no?authuser=0', 
+     url: '/images/memory1.jpg',
     caption: 'The day we first laughed together.', 
     story: 'That Tuesday afternoon wasn\'t supposed to be special, but then you told that ridiculous joke about the penguin. I don\'t even remember the punchline anymore, but I remember how your eyes crinkled at the corners. It was the first time I realized that your laughter was my favorite sound in the world.\n\nWe sat on that bench for hours, ignoring the world around us, just caught in the orbit of our own joy. Every time I see this picture, I can still feel the warmth of that sun and the lightness in my chest that hasn\'t gone away since.',
     date: 'Spring 2023' 
