@@ -222,8 +222,8 @@ export default function App() {
             <span className="text-romantic-500 italic">{RHEMA_NAME}</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto font-light leading-relaxed">
-            A celebration of a soul that shines brighter than the sun. <br />
-            Here's to the beauty you bring to every moment.
+            A heartfelt gift for my princess who makes every moment feel amazing. <br />
+            Here's to the beauty and happiness you bring to every moment.
           </p>
         </motion.div>
 
