@@ -57,31 +57,31 @@ const LETTERS: Letter[] = [
     signature: "With Love"
   }
   {
-    id: 1,
+    id: 3,
     title: "To My Rhema",
     content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
     signature: "Stephanie"
   },
   {
-    id: 1,
+    id: 4,
     title: "To My Rhema",
     content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
     signature: "Feyi"
   },
     {
-    id: 1,
+    id: 5,
     title: "To My Rhema",
     content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
     signature: "Otokini"
   },
       {
-    id: 1,
+    id: 6,
     title: "To My Rhema",
     content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
     signature: "Dum Dum"
   },
         {
-    id: 1,
+    id: 7,
     title: "To My Rhema",
     content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams. I love you babe❤️",
     signature: "Tehilla"
