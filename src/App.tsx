@@ -64,7 +64,7 @@ const MEMORIES: Memory[] = [
     story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
     date: 'Winter 2024' 
   },
-  
+  ];
 const LETTERS: Letter[] = [
   {
     id: 1,
