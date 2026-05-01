@@ -38,7 +38,7 @@ const RHEMA_NAME = "Rhema";
 const MEMORIES: Memory[] = [
   { 
     id: 1, 
-    url: 'https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&q=80&w=800', 
+    url: 'images/27EE8608-DB48-4421-9958-0BB17BC450F2_1_105_c.jpeg', 
     caption: 'The day we first laughed together.', 
     story: 'That Tuesday afternoon wasn\'t supposed to be special, but then you told that ridiculous joke about the penguin. I don\'t even remember the punchline anymore, but I remember how your eyes crinkled at the corners. It was the first time I realized that your laughter was my favorite sound in the world.\n\nWe sat on that bench for hours, ignoring the world around us, just caught in the orbit of our own joy. Every time I see this picture, I can still feel the warmth of that sun and the lightness in my chest that hasn\'t gone away since.',
     date: 'Spring 2023' 
