@@ -77,7 +77,37 @@ const LETTERS: Letter[] = [
     id: 2,
     title: "A Memory of Grace",
     content: "I remember when you walked into that room... the air just felt different. Lighter. Better. You have this way of making everything around you bloom, Rhema.",
-    signature: "With Love"
+    signature: "Feyi"
+  },
+   {
+    id: 3,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
+    signature: "Stephanie"
+  },
+   {
+    id: 4,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
+    signature: "Otokini"
+  },
+   {
+    id: 5,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
+    signature: "Dum Dum"
+  },
+   {
+    id: 6,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
+    signature: "Tehilla"
+  },
+   {
+    id: 7,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
+    signature: "Debbie"
   }
 ];
 
