@@ -36,18 +36,35 @@ interface Letter {
 const RHEMA_NAME = "Rhema";
 
 const MEMORIES: Memory[] = [
-  { id: 1, url: 'https://lh3.googleusercontent.com/pw/AP1GczMXtY-jNcHLKtrV-arnhsAt8LFLnnJsbNpIVCKrvVFQQwMFWZOEThAsjkwURD50C63UUJFWZnyhI6jn3yzLlGavHDUcsoDkFg3JYxXVMtJh_kYxGLrwLKbXrkmNj-Sc9QLAOaervbP_VLXSYp4_4og3HGm02utzrwrp_53AcnJUhU_XGgepz7C7IJJ0qKqtuMw2J5NMe4T7-ONPK-73w2lD_ZPw21bBU3sOAB4Lf8giHlkyMuhZSisH70K2iqbSnjCDJZDdMmzxdaj2L1qfNbXQzQ0YPd59WSgBRLs4sqAqMuK9txLsAu9f0EeqHkA8PjmuiDfjeXpj-BfrZq_Qtbj2g3rQC0s4-Q8bY9Qxl0NTVNaXhzZarMiAoxdVbP0j0zzqu_XCACQ0oDm3LmMhGwD1nUiU0bDQTuZcgggPjgpQ0k1L94mUfwnS_NrM9Z7yHrPqHLhlGts0Vr5nVugL_01dbisl_h6LJf-9KXhERSyuIaDXWB75v76QddjxsACTmCMz2zrI7Zr42mlFcBl5uzScx2t9cJGvQkCo26xEU13FNqJNrDC37QsgmnwDNCHCJiwjJ2SE-1jb-1qq4cFM6TBf_YEE_z4XOhwhSnxUqemhBV4e3wcc10VfKwOE7lI-RMxw-cNXttimUeBcNq0b8Ch3DaW67z0lLqCEJryZ9wjkgmKElutE4z1WhCJptVvFIO2pA4bA9IyqM_CBfnY74iIy8jDsAZ4LfJPjEFe7MzyHF6nzZ8foqC_TGhHVggkYQl-bLU5EpWObqNRoEDu_7avm6OOYZIbY7RjH9FJwyPCvWt9OkYqz_LC2KLS0WZ8vkJmDBoN7TxIy5R4VnA4oRnc8xm6PQ_Es_Gc0BdIwsiM179XCwY6C4F2Vogx4dzqK8LUv1iHMIUz7-HlKlTE=w1170-h1560-s-no?authuser=0', caption: 'The day we first laughed together until we couldn\'t breathe.', date: 'Spring 2023' },
-
-
-  { id: 2, url: 'https://lh3.googleusercontent.com/pw/AP1GczM4iUhBmJLnYvJo1Vq4dtKgJ7U39MHa8lbyEaGInxLQB7OuOTJX7mfwVUz4gFGbn4A-zzJwnPk2IPs3Ih8HxvKZbXDlIU39C7k_lDXj8Jp1zdufH7OfwLJeLBw2vWfsEvwtosxSSpGU9MvEgy0TwNNGBVLmurpm92tH2tEuxkekPWrNpPQbSWbFPGhH32oTeuOvLMIo8OsrvQ-l9cqxrn2bCEZB4JK5T4qRSGlNOkiPI3i_LnP4nr8G0AwVVvlzxMafgBSGMbRKFQI_2rYkPMyw8QDAdmLr2BANcvmziF7O5D04jTgq3t_g2LdbFFZwWYaZqs1Wctk8h7bibg8BOtD1iQExHKPHGE5rYOKFdqgbfKqpr1Z4-MQ70D96U87y5QqfMhbYsgT7QDV1YCnVSF5wBToMUs5F_kOY47t0LxQbUY2mEBkong5BLYwD2BhzOWDRwlpbkOArE3IxGHzXqIATcKa8SGFKp7pzJSJNV54KdxJBopOHEzIMumwBqpSWWyt75A9HOs1of96sN1dGsieXz8rhp2ZpG83TyzV6jHhpOrmJhVpRd04w6ugtSCTx92VJj_nXSX7ZHQvTiqAjvVcklBpddgAwiOWu10FoPznvemMUZ9Z9xMqKP9CgJs0xxgi8UZpHsiYwYdoXWLCTeWZiUEY83tAnrcyF3D7wHQgTb--O8AuWCNa29Hf9WFBF0IYU_Ix5SkMXweVvUonVNrGQyVhBPKn1X1gUMM-V2L_1bmhwaJCZOf8pdYmFptmD1HFtcVO08KUPJs5RI59kLvZZK_6UmIncCsEmA8lgP589NtqpRIAB4HiM0axrzS3qUGP339IjDSiYJxM7p38OeohHVgCHAWpHU3LHHKuyIX1LVP74oNlh--bOnd4zdM8-58EDVYQW2jYlKc0KxGw=w1170-h1560-s-no?authuser=0', caption: 'Sunset silhouettes and promises of a thousand tomorrows.', date: 'Summer 2023' },
-
-
-  { id: 3, url: 'https://lh3.googleusercontent.com/pw/AP1GczOxVQoVbCKascl8g8cnejj-YcKGIpNxU8vd3QyNVFTLe0H68GNQOhN5vDISfvY2_8B9z0wZS7paULfahTMbRgMY9iFZnoPGNbIy5Px99R6tWg2B098GBOVx71ZlgrjdM9cmwK01yNAa0lsosriq4lq6cZCIOAkeqzE3MoCmbMnkPKMn1jzj4dWH-BywNFElu6-M5hWhmfGNamg4dkdApyNzCmroQa-TZqyZLALiJ6JhUkmXJEKkUBXd6-DxlgoyT9nPaDYrzQm4fuTshPjPq3WzDngXuvPFmpkrPzGrXcPf1ZGzdGs-X8QzvajqVNaOGIfxNAibUgP44MeUre7YGpxZxhkqn8so5uElqxwTe8BHNP3YxznNhCyxvc6OGMOeoSROpYXQ9Vvvsbdjx9Ieaf9l1T0EZs-y_V2MYGXXtt_AQvRJDKB_mgturW8ECvi0Y5ndH7jTUdOSQGhWiuzbOwMuMsluTzf1Wf1gh-VEOwDFtPNfBu02bo8ZgTSaJkXUTWuKNoVj6_BMn1FzBzQeRSJniG86gGdtBdMOQAjRQDhmz7RwqXQxS3HRV-MkEHr1ug83W3pPKPTYUXW-TAzHIsFoGbrk9oP2EdUFY_vdujd93PxuHLgn6kdGNK1ab8Imyzf1yVpIrgYRYcGOWTQ5ck8D1Oqp58rMnAjUG0qfYjWfisJF7mxknk3hIqXKqIMBcici0CRsfWMZVCvqoDOuvuODnVZJ3b14V-NGRofcf3IvMAclOhqF2kVsxzFZi-VPZ0ENQ1YVkbOAKraDAzKMJJMhijGk6hE29PxBsLL7UD_aoCSzMy6RLEAbjP-dqxLK0_k7uPecETbD9T139gRgPB0ddmjQzksqwy96Dossl50L_t7UTnU39WNcho5wt8748wgrjK-GI1CczNPZMQ=w586-h780-s-no?authuser=0', caption: 'Every picture of you is a masterpiece of grace.', date: 'Autumn 2023' },
-
-
-  { id: 4, url: 'https://lh3.googleusercontent.com/pw/AP1GczMDQPUEANTD9NdJdYaM2mI2z-5LYRbzZ0O5m6dLnWvvH6ka_jM6LL0udwDR-XdYky35B4ffKvSLdxXz_5I6aB_-HTcDMA9f-BOHE5PIXrKbz3TfdH1xDdjh_Yir9Py-BRZwGiA31lvfCyTgac1trmaLSOAq2wfpjeNcN2tQIQ0hHQyvz7W2j4jIlVkbkJjlSQiT54opc1P4kU6JDIjkldtLKkI2MheNsJqqW7OyCbqIgjusTefVtgVIZCs0l-3B6Cx5hwxEZW6ld1plSQN03qwz31blcvEir5co1vlNHfL5f21JQTYdo7stesbfRtWUhoqyZUEeod6zyDEUpb-cirDbqK4Cmd9N3tjPOWzB6qzHt1AV92W7BBw3u0V_uWnEOpbVmymiuDMzg63GwMYZIxLl3rUHQpNFc7DsGaH2rdFRaXLP9LzjCbO-2cESyaUlp_tSy7-RO0r0IG0lX1U0ryymELdZ-dlDYPqql0Dt0lcKvaAtxLg_x-6SA0u91ykwg9mcLUP_qB25yQHYpRy4KjSDXHh2XPPqXn0NpSuMJD94J7B03LQADvKDpop_8H0mPK9LyGOr0kCThkegGTfBbRSRaUHdltQ1wEw1PwoaVBBu_iP9SCHFfNTxtT4XhYDhmVXa3Zpdu1Tcfv_ZD5l-d-oCERnfgWPFsBe4vsk4ATe6KhpXPfT2dt6MEmQBeNuHVzlJw88iIYaYM3VGOdZKmIsSBW7f1H2pcYnUrBPi2I6KA7beWtL1IqZaua2oF9WSzWCb0vG4FIc-G_W8XdZcQd9YQJ-MCQIrmpGxMlgW5h8TVpY81jEyNhRHIsN6zL7hfII_rfVn1Mo0jkm4Vum1oQgbwDpERierlszw8xx9sF-CZAS4lasPnMhFThCJ4PqLmvm4EIedtbi7e_SJaKM=w1442-h1560-s-no?authuser=0', caption: 'Our favorite quiet moments where the world felt so small.', date: 'Winter 2024' },
+  { 
+    id: 1, 
+    url: 'https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&q=80&w=800', 
+    caption: 'The day we first laughed together.', 
+    story: 'That Tuesday afternoon wasn\'t supposed to be special, but then you told that ridiculous joke about the penguin. I don\'t even remember the punchline anymore, but I remember how your eyes crinkled at the corners. It was the first time I realized that your laughter was my favorite sound in the world.\n\nWe sat on that bench for hours, ignoring the world around us, just caught in the orbit of our own joy. Every time I see this picture, I can still feel the warmth of that sun and the lightness in my chest that hasn\'t gone away since.',
+    date: 'Spring 2023' 
+  },
+  { 
+    id: 2, 
+    url: 'https://images.unsplash.com/photo-1518199266791-739d6ff58b68?auto=format&fit=crop&q=80&w=800', 
+    caption: 'Sunset silhouettes and promises.', 
+    story: 'We watched the sky turn from gold to violet, and for a moment, everything was quiet. You looked at me and said you felt like the world was too big, but in that moment, the only world I cared about was right here.\n\nYou have this incredible ability to make even the grandest landscapes feel intimate. This sunset was beautiful, but it was just the backdrop to the conversation we had about our dreams and where we wanted to go. I\'m so glad those paths led us here.',
+    date: 'Summer 2023' 
+  },
+  { 
+    id: 3, 
+    url: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&q=80&w=800', 
+    caption: 'A masterpiece of grace.', 
+    story: 'I caught you looking at the rain, completely lost in thought. You didn\'t see me take this, and that\'s why it\'s my favorite. It\'s the "between" moments—the unposed, unscripted versions of you—that truly show your light.\n\nRhema, you don\'t have to try to be beautiful; you just are. Even in the greyest weather, you carry a vibrance that makes the world feel colorful. This photo is a reminder that beauty isn\'t a performance for you, it\'s your natural state.',
+    date: 'Autumn 2023' 
+  },
+  { 
+    id: 4, 
+    url: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800', 
+    caption: 'Our favorite quiet moments.', 
+    story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
+    date: 'Winter 2024' 
+  },
 ];
-
 const LETTERS: Letter[] = [
   {
     id: 1,
