@@ -161,7 +161,7 @@ export default function App() {
                 src={selectedMemory.url}
                 alt={selectedMemory.caption}
                 className="w-full h-full object-cover rounded-2xl md:rounded-r-3xl shadow-2xl"
-                referrerPolicy="no-referrer"
+              
               />
             </div>
 
@@ -287,7 +287,7 @@ export default function App() {
                     src={memory.url}
                     alt={memory.caption}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    referrerPolicy="no-referrer"
+                    
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <div className="text-white flex items-center gap-2 scale-90 group-hover:scale-100 transition-transform duration-300">
