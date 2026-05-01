@@ -71,7 +71,7 @@ const LETTERS: Letter[] = [
     id: 1,
     title: "To My Rhema",
     content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
-    signature: "Yours Always"
+    signature: "Toyosi, Yours Always"
   },
   {
     id: 2,
