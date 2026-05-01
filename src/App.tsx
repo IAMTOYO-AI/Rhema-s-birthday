@@ -55,7 +55,7 @@ const LETTERS: Letter[] = [
     title: "A Memory of Grace",
     content: "I remember when you walked into that room... the air just felt different. Lighter. Better. You have this way of making everything around you bloom, Rhema.",
     signature: "With Love"
-  }
+  },
   {
     id: 3,
     title: "To My Rhema",
