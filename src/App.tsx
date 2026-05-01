@@ -34,36 +34,7 @@ interface Letter {
 // Change these to make the website perfect for Rhema!
 
 const RHEMA_NAME = "Rhema";
-const MEMORIES: Memory[] = [
-  { 
-    id: 1, 
-    url: 'https://lh3.googleusercontent.com/pw/AP1GczOzNPDNi_QwA9yR8iY6zYsw8zWLcgA6PWMXlKeniTblyaCBSpFrMX67LwTfFFreG5ctO7oGHBSMklYfh__eV8d7MHEUKbcTNqmpYDZmqivlbWSV_SnuVHHZvlwl3Xz5PWjLXKhhp7KYLmEbp2yVXwd0gHYNZICVUkEvgNB-voJLlHaSKbPADVVNSACQXqldRmMuekZs5nYhYpjBX4jKZmlzfQrpODbdPUaxXxuxbowZakXzTcwc6MbLd9O8f42BF6WBEbl4_ZMEBhqaTgB9q3xyLaWlm7N3Q8_Uja3eU2sBj8QwLeS9WJL1jxy6yhBdIG3UX8RnpcqvLkjWsvzLJ0E-n9GUN-FRnt06DPeBZXwcaocFyjELJwX4W7sYTIyTP99PZG47GAyZSTucd2QKl7rleYAFDXcwOoMrszN5AvNcxQcav0SgGKeQVxrdah2dLeZ5xbU0EdPoUJ2vioNaMdkGuPScOW8xCbaBaYhqquy6jD2rI7FhyUR2tIlVQZNgQCk68JrbJJdBzdn-lKZ91OuylI9I4Ss0YQW1ClSlAmD1ETaaentuV9zL9MWoK1vHT4WFmlBxLexUWISP2tVJZ_MtQIIPY5Wt-irYHcyr9vDhvJeuFeVKhGJErRtXT44a4nG-oXdJETAnUDO7x6jni9BKkLcn9_BgW48mGiWQgZBqQHlrbMSvnTaLSEDaEpgRt6zNLKeLYW40Xzl_burxrRgwpT8S6X1iarzkHQufEQ9Guibg1mH7WXcWX6lCb6gOPowxAs1eBwQeq-QGSXqL8zv3c1uVruv5E9ZBgGHCCPu3J9ZowATHy_uUHlWzGQuI7bGGrcdVtWJBzIUIFjQhfdOQDYH7c3QjN8w37B50HdKN_wLPNgtfja8vO-57qvhS-flJs2bplweZdvbH4Q=w1170-h1560-s-no?authuser=0', 
-    caption: 'The day we first laughed together.', 
-    story: 'That Tuesday afternoon wasn\'t supposed to be special, but then you told that ridiculous joke about the penguin. I don\'t even remember the punchline anymore, but I remember how your eyes crinkled at the corners. It was the first time I realized that your laughter was my favorite sound in the world.\n\nWe sat on that bench for hours, ignoring the world around us, just caught in the orbit of our own joy. Every time I see this picture, I can still feel the warmth of that sun and the lightness in my chest that hasn\'t gone away since.',
-    date: 'Spring 2023' 
-  },
-  { 
-    id: 2, 
-    url: 'https://images.unsplash.com/photo-1518199266791-739d6ff58b68?auto=format&fit=crop&q=80&w=800', 
-    caption: 'Sunset silhouettes and promises.', 
-    story: 'We watched the sky turn from gold to violet, and for a moment, everything was quiet. You looked at me and said you felt like the world was too big, but in that moment, the only world I cared about was right here.\n\nYou have this incredible ability to make even the grandest landscapes feel intimate. This sunset was beautiful, but it was just the backdrop to the conversation we had about our dreams and where we wanted to go. I\'m so glad those paths led us here.',
-    date: 'Summer 2023' 
-  },
-  { 
-    id: 3, 
-    url: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&q=80&w=800', 
-    caption: 'A masterpiece of grace.', 
-    story: 'I caught you looking at the rain, completely lost in thought. You didn\'t see me take this, and that\'s why it\'s my favorite. It\'s the "between" moments—the unposed, unscripted versions of you—that truly show your light.\n\nRhema, you don\'t have to try to be beautiful; you just are. Even in the greyest weather, you carry a vibrance that makes the world feel colorful. This photo is a reminder that beauty isn\'t a performance for you, it\'s your natural state.',
-    date: 'Autumn 2023' 
-  },
-  { 
-    id: 4, 
-    url: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800', 
-    caption: 'Our favorite quiet moments.', 
-    story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
-    date: 'Winter 2024' 
-  },
-];
+
 
 const LETTERS: Letter[] = [
   {
