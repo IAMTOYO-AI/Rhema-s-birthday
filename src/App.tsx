@@ -36,6 +36,25 @@ interface Letter {
 const RHEMA_NAME = "Rhema";
 // Near the top of App.tsx
 
+const REASONS = [
+  "I love your smile",
+  "You make everything feel easy",
+  "You understand me in a way no one else does",
+  "You’re my peace",
+  "You make me laugh when I need it most",
+  "You’re beautiful inside and out",
+];
+
+const [currentReason, setCurrentReason] = useState(REASONS[0]);
+
+const nextReason = () => {
+  let next;
+  do {
+    next = REASONS[Math.floor(Math.random() * REASONS.length)];
+  } while (next === currentReason && REASONS.length > 1);
+
+  setCurrentReason(next);
+};
 
 const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
@@ -357,6 +376,21 @@ export default function App() {
           </div>
         </div>
       </section>
+      
+      <section className="py-20 text-center">
+  <h2 className="text-3xl serif mb-6">Why I Love You 💖</h2>
+
+  <p className="text-xl mb-6 transition-all duration-300">
+    {currentReason}
+  </p>
+
+  <button
+    onClick={nextReason}
+    className="px-6 py-3 rounded-full bg-pink-500 text-white hover:scale-105 hover:bg-pink-600 transition-all duration-300 shadow-md"
+  >
+    Tap me 💕
+  </button>
+</section>
       
    {/* Photobook Section - Bento Grid */}
       <section className="py-24 relative z-10 overflow-hidden bg-white">
