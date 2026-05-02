@@ -8,6 +8,8 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Heart, Stars, MessageCircle, Image as ImageIcon, BookOpen, Send, Sparkles, ChevronDown } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { getHeartfeltReply } from './services/gemini';
+import { X, Stars } from 'lucide-react'; // Add X to your lucide imports
+import confetti from 'canvas-confetti';
 
 // Types
 interface Message {
@@ -180,6 +182,7 @@ export default function App() {
   const [isTyping, setIsTyping] = useState(false);
   const [selectedMemory, setSelectedMemory] = useState<Memory | null>(null);
   const [currentReason, setCurrentReason] = useState(REASONS[0]);
+  const [showSurprise, setShowSurprise] = useState(false);
   const chatEndRef = useRef<HTMLDivElement>(null);
 
   const nextReason = () => {
@@ -188,6 +191,27 @@ export default function App() {
       next = REASONS[Math.floor(Math.random() * REASONS.length)];
     } while (next === currentReason && REASONS.length > 1);
     setCurrentReason(next);
+  };
+
+  const handleSurprise = () => {
+    setShowSurprise(true);
+    const duration = 5 * 1000;
+    const animationEnd = Date.now() + duration;
+    const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 200 };
+
+    const randomInRange = (min: number, max: number) => Math.random() * (max - min) + min;
+
+    const interval: any = setInterval(function() {
+      const timeLeft = animationEnd - Date.now();
+
+      if (timeLeft <= 0) {
+        return clearInterval(interval);
+      }
+
+      const particleCount = 50 * (timeLeft / duration);
+      confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } });
+      confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } });
+    }, 250);
   };
 
   // Auto-scroll chat
@@ -210,6 +234,37 @@ export default function App() {
 
   return (
     <div className="min-h-screen font-sans selection:bg-romantic-300">
+      <AnimatePresence>
+  {showSurprise && (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-[150] bg-romantic-500 flex items-center justify-center text-center p-6"
+    >
+      <button 
+        onClick={() => setShowSurprise(false)}
+        className="absolute top-8 right-8 text-white/80 hover:text-white transition-colors"
+      >
+        <X className="w-8 h-8" />
+      </button>
+      
+      <motion.div
+        initial={{ scale: 0.5, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ type: "spring", duration: 1 }}
+      >
+        <Heart className="w-24 h-24 text-white fill-white mx-auto mb-8 animate-pulse" />
+        <h2 className="serif text-4xl md:text-7xl font-bold text-white mb-6">
+          I love you more than anything in this world.
+        </h2>
+        <p className="text-romantic-100 text-xl font-light italic">
+          You are my greatest adventure, Rhema.
+        </p>
+      </motion.div>
+    </motion.div>
+  )}
+</AnimatePresence>
       <AnimatePresence>
         {selectedMemory && (
           <motion.div
@@ -590,6 +645,27 @@ export default function App() {
           </div>
         </div>
       </section>
+      <section className="py-24 bg-white relative z-10 text-center">
+  <motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    viewport={{ once: true }}
+    className="max-w-xl mx-auto px-4"
+  >
+    <div className="p-12 rounded-[40px] border-2 border-dashed border-romantic-200 bg-romantic-50/30">
+       <Stars className="w-10 h-10 text-romantic-400 mx-auto mb-6" />
+       <h2 className="serif text-2xl font-bold mb-8 text-gray-800">
+         Curiosity killed the cat... but check this out.
+       </h2>
+       <button
+         onClick={handleSurprise}
+         className="px-10 py-5 bg-romantic-500 text-white rounded-full font-bold text-lg shadow-xl hover:bg-romantic-600 hover:scale-105 active:scale-95 transition-all"
+       >
+         Don't click this... 🎁
+       </button>
+    </div>
+  </motion.div>
+</section>
 
       {/* Footer */}
       <footer className="py-12 bg-white text-center border-t border-romantic-100 relative z-10">
