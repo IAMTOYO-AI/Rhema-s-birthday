@@ -8,8 +8,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Heart, Stars, MessageCircle, Image as ImageIcon, BookOpen, Send, Sparkles, ChevronDown } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { getHeartfeltReply } from './services/gemini';
-import { X, Stars } from 'lucide-react'; // Add X to your lucide imports
-import confetti from 'canvas-confetti';
+
 
 // Types
 interface Message {
