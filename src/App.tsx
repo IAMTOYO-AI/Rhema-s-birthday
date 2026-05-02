@@ -44,6 +44,20 @@ const REASONS = [
   "You’re my peace",
   "You make me laugh when I need it most",
   "You’re beautiful inside and out",
+  "I love how you make ordinary moments feel special.",
+  "Your kindness to everyone around you.",
+  "I love how you support me when things get tough.",
+  "I love your honesty.",
+  "I love your voice.",
+  "I love your sense of humor.",
+  "I love how comfortable I feel around you.",
+  "I love your confidence.",
+  "I love how you handle challenges.",
+  "I love how you stay true to yourself.",
+  "I love your uniqueness.",
+  "I love how you care deeply.",
+
+
 ];
 
 const PHOTO_DUMP = [
