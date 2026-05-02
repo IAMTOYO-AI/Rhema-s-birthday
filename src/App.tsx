@@ -243,43 +243,6 @@ export default function App() {
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_20%_30%,_rgba(240,90,90,0.05)_0%,_transparent_50%)]" />
         <div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_80%_70%,_rgba(240,90,90,0.05)_0%,_transparent_50%)]" />
       </div>
-    {/* Photobook Section */}
-<section className="py-24 relative z-10 overflow-hidden bg-romantic-50/50">
-  <div className="max-w-7xl mx-auto px-4">
-    <div className="flex items-center gap-4 mb-12">
-      <Sparkles className="w-8 h-8 text-romantic-500" />
-      <h2 className="serif text-3xl md:text-4xl font-bold">Our Photobook</h2>
-    </div>
-
-    <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
-      {PHOTO_DUMP.map((url, i) => (
-        <motion.div
-          key={i}
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: (i % 4) * 0.1 }}
-          className="relative group break-inside-avoid"
-        >
-          {/* Polaroid Card Effect */}
-          <div 
-            className="bg-white p-3 pb-10 shadow-lg ring-1 ring-romantic-100/50 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2"
-            style={{ transform: `rotate(${(i % 2 === 0 ? 1 : -1) * (Math.random() * 2 + 1)}deg)` }}
-          >
-            <img 
-              src={url} 
-              alt="Memory" 
-              className="w-full h-auto grayscale-[0.2] group-hover:grayscale-0 transition-all duration-500"
-              referrerPolicy="no-referrer"
-            />
-            {/* Decorative Tape Element */}
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-8 bg-romantic-200/40 backdrop-blur-sm -rotate-2 opacity-60 pointer-events-none" />
-          </div>
-        </motion.div>
-      ))}
-    </div>
-  </div>
-</section>
       
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden">
@@ -383,7 +346,43 @@ export default function App() {
           </div>
         </div>
       </section>
+{/* Photobook Section */}
+<section className="py-24 relative z-10 overflow-hidden bg-romantic-50/50">
+  <div className="max-w-7xl mx-auto px-4">
+    <div className="flex items-center gap-4 mb-12">
+      <Sparkles className="w-8 h-8 text-romantic-500" />
+      <h2 className="serif text-3xl md:text-4xl font-bold">Our Photobook</h2>
+    </div>
 
+    <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+      {PHOTO_DUMP.map((url, i) => (
+        <motion.div
+          key={i}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: (i % 4) * 0.1 }}
+          className="relative group break-inside-avoid"
+        >
+          {/* Polaroid Card Effect */}
+          <div 
+            className="bg-white p-3 pb-10 shadow-lg ring-1 ring-romantic-100/50 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2"
+            style={{ transform: `rotate(${(i % 2 === 0 ? 1 : -1) * (Math.random() * 2 + 1)}deg)` }}
+          >
+            <img 
+              src={url} 
+              alt="Memory" 
+              className="w-full h-auto grayscale-[0.2] group-hover:grayscale-0 transition-all duration-500"
+              referrerPolicy="no-referrer"
+            />
+            {/* Decorative Tape Element */}
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-8 bg-romantic-200/40 backdrop-blur-sm -rotate-2 opacity-60 pointer-events-none" />
+          </div>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
       {/* Letters Section */}
       <section className="py-24 relative z-10 overflow-hidden">
         <div className="max-w-4xl mx-auto px-4">
