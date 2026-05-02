@@ -218,7 +218,10 @@ export default function App() {
                      "{selectedMemory.story}"
                   </p>
                   
-                 
+                 <div className="pt-12 border-t border-romantic-100 mt-12">
+                    <p className="serif text-2xl italic font-semibold text-romantic-500">
+                      With all my love, always.
+                    </p>
                   </div>
                 </div>
               </motion.div>
