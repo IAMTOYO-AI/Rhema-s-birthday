@@ -91,7 +91,7 @@ const MEMORIES: Memory[] = [
     id: 4, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777758293/photo_2026-05-02_22.21.08_gnaqvz.jpg',
     caption: 'Memories with Feyi', 
-    story: 'I can’t even remember if class was cancelled that day or if it was one of those times we had to go and get cash for something but I do remember how you made us walk all the way to Access Bank just to take pictures 😭😂. All in the name of "keeping memories". You’re always saying "keep memories, and I’m honestly so grateful you do because now we have so many little pieces of us to hold on to. Like that one when you were roommates with Jewel and I was under your blanket 😂😂. We’ve made so many memories together, and I love that we didn’t just live them, we captured them. We get to look back and feel them all over again. I really love how we live and exist. Simple and full. I love you, Bim Bim 🤍. Cheers to many more years of keeping memories together 🥂✨ hehe',
+    story: 'I can’t even remember if class was cancelled that day or if it was one of those times we had to go and get cash for something but I do remember how you made us walk all the way to Access Bank just to take pictures 😭😂. All in the name of "keeping memories". You’re always saying "keep memories", and I’m honestly so grateful you do because now we have so many little pieces of us to hold on to. Like that one when you were roommates with Jewel and I was under your blanket 😂😂. We’ve made so many memories together, and I love that we didn’t just live them, we captured them. We get to look back and feel them all over again. I really love how we live and exist. Simple and full. I love you, Bim Bim 🤍. Cheers to many more years of keeping memories together 🥂✨ hehe',
     date: 'June 2024' 
   },
 { 
