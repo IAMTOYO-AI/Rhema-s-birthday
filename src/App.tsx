@@ -346,7 +346,6 @@ export default function App() {
           </div>
         </div>
       </section>
-{/* Photobook Section */}
 <section className="py-24 relative z-10 overflow-hidden bg-romantic-50/50">
   <div className="max-w-7xl mx-auto px-4">
     <div className="flex items-center gap-4 mb-12">
@@ -358,25 +357,34 @@ export default function App() {
       {PHOTO_DUMP.map((url, i) => (
         <motion.div
           key={i}
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: (i % 4) * 0.1 }}
+          initial={{ opacity: 0, y: 20, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.4, delay: (i % 4) * 0.1 }}
           className="relative group break-inside-avoid"
         >
-          {/* Polaroid Card Effect */}
-          <div 
-            className="bg-white p-3 pb-10 shadow-lg ring-1 ring-romantic-100/50 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2"
-            style={{ transform: `rotate(${(i % 2 === 0 ? 1 : -1) * (Math.random() * 2 + 1)}deg)` }}
+          <div
+            className="bg-white p-3 pb-10 shadow-md ring-1 ring-romantic-100/50 
+                       transition-all duration-300 ease-out
+                       group-hover:shadow-xl group-hover:-translate-y-1"
+            style={{
+              transform: `rotate(${i % 2 === 0 ? 2 : -2}deg)`
+            }}
           >
-            <img 
-              src={url} 
-              alt="Memory" 
-              className="w-full h-auto grayscale-[0.2] group-hover:grayscale-0 transition-all duration-500"
+            <img
+              src={url}
+              alt="Memory"
+              className="w-full h-auto object-cover 
+                         grayscale-[0.2] group-hover:grayscale-0 
+                         transition-all duration-500"
+              loading="lazy"
               referrerPolicy="no-referrer"
             />
-            {/* Decorative Tape Element */}
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-8 bg-romantic-200/40 backdrop-blur-sm -rotate-2 opacity-60 pointer-events-none" />
+
+            {/* Tape */}
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 
+                            w-16 h-8 bg-romantic-200/40 backdrop-blur-sm 
+                            -rotate-2 opacity-60 pointer-events-none" />
           </div>
         </motion.div>
       ))}
