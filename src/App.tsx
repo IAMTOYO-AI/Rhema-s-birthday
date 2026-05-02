@@ -45,17 +45,6 @@ const REASONS = [
   "You’re beautiful inside and out",
 ];
 
-const [currentReason, setCurrentReason] = useState(REASONS[0]);
-
-const nextReason = () => {
-  let next;
-  do {
-    next = REASONS[Math.floor(Math.random() * REASONS.length)];
-  } while (next === currentReason && REASONS.length > 1);
-
-  setCurrentReason(next);
-};
-
 const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
@@ -190,7 +179,16 @@ export default function App() {
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const [selectedMemory, setSelectedMemory] = useState<Memory | null>(null);
+  const [currentReason, setCurrentReason] = useState(REASONS[0]);
   const chatEndRef = useRef<HTMLDivElement>(null);
+
+  const nextReason = () => {
+    let next;
+    do {
+      next = REASONS[Math.floor(Math.random() * REASONS.length)];
+    } while (next === currentReason && REASONS.length > 1);
+    setCurrentReason(next);
+  };
 
   // Auto-scroll chat
   useEffect(() => {
