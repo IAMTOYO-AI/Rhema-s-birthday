@@ -42,10 +42,6 @@ const MEMORIES: Memory[] = [
     caption: 'The day we first laughed together.', 
     story: 'That Tuesday afternoon wasn\'t supposed to be special, but then you told that ridiculous joke about the penguin. I don\'t even remember the punchline anymore, but I remember how your eyes crinkled at the corners. It was the first time I realized that your laughter was my favorite sound in the world.\n\nWe sat on that bench for hours, ignoring the world around us, just caught in the orbit of our own joy. Every time I see this picture, I can still feel the warmth of that sun and the lightness in my chest that hasn\'t gone away since.',
     date: 'Spring 2023' 
-     <div className="pt-12 border-t border-romantic-100 mt-12">
-                    <p className="serif text-2xl italic font-semibold text-romantic-500">
-                      With all my love, always.
-                    </p>
   },
   { 
     id: 2, 
