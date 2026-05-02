@@ -85,6 +85,7 @@ const MEMORIES: Memory[] = [
      url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777736365/DD088ABC-A44B-4EB2-A0AE-0D98B1019972_1_105_c_adbvw6.jpg',
     caption: 'Late night calls', 
     story: 'There’s something about our late night calls that feels like a world of its own. The day would be loud and busy but the night always belonged to us. It didn’t matter how tired I was or how long the day had been hearing your voice made everything slow down. We’d talk about anything and everything. Sometimes it was deep conversations about life, dreams, and the future. Other times it was the most random, unserious things that somehow had us laughing so much. And then there were those quiet moments when neither of us had much to say(comfortable silence like you would always say), but neither of us wanted to hang up. I’d catch myself smiling for no reason, just listening to you speak on the other end. Time didn’t feel real anymore. Minutes turned into hours, and somehow it still never felt like enough. There were nights we told each other, “just five more minutes,” but five minutes with you always turned into one more hour. Sleep could wait. And even after the call ended, it didn’t really feel like you were gone. Your voice would stay in my head, your laughter replaying like a favorite song I didn’t want to turn off. Those calls weren’t just conversations. They were where I felt closest to you.',
+    date: 'Late Nights'
   },
   { 
     id: 4, 
@@ -131,9 +132,9 @@ const LETTERS: Letter[] = [
   },
   {
     id: 2,
-    title: "A Memory of Grace",
-    content: "I remember when you walked into that room... the air just felt different. Lighter. Better. You have this way of making everything around you bloom, Rhema.",
-    signature: "Feyi"
+    title: "My Bim Bim 🤍",
+    content: “I’ve seen you grow, I have seen you push through, and I’m so proud of you” This song reminds me of you and it reminds me of how far we’ve come. \n  I love you, my girl. You’re a breath of fresh air and someone I can truly call my friend. Thank you for always being dear (wordplay fully intended 😉). \n Happy birthday, my queen. Till we’re old and grey o 🤍",
+    signature: "Yours truly \n Feyi❤️"
   },
    {
     id: 3,
