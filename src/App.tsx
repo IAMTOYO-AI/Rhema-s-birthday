@@ -157,7 +157,7 @@ const LETTERS: Letter[] = [
    {
     id: 6,
     title: "My precious Bim bim🌚🫶",
-    content: "You're such an interesting person, I love love how you are a blend compassion and "{hard guy}" all in one package. You're a very grounded person and I love that I have someone like you in my life🤭. It took a little while for us to get where we are right now but I'm grateful for the gift of you❤️❤️. I cherish and love love you so so muchhhhh.",
+    content: "You're such an interesting person, I love love how you are a blend compassion and 'hard guy' all in one package. You're a very grounded person and I love that I have someone like you in my life🤭. It took a little while for us to get where we are right now but I'm grateful for the gift of you❤️❤️. I cherish and love love you so so muchhhhh.",
     signature: "Deborah🌚🌚"
   },
    {
