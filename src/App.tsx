@@ -91,7 +91,7 @@ const MEMORIES: Memory[] = [
     id: 4, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777758293/photo_2026-05-02_22.21.08_gnaqvz.jpg',
     caption: 'Memories with Feyi', 
-    story: 'I can’t even remember if class was cancelled that day or if it was one of those times we had to go and get cash for something but I do remember how you made us walk all the way to Access Bank just to take pictures 😭😂. All in the name of keeping memories. You’re always saying keep memories, and I’m honestly so grateful you do because now we have so many little pieces of us to hold on to. Like that one when you were roommates with Jewel and I was under your blanket 😂😂. We’ve made so many memories together, and I love that we didn’t just live them, we captured them. We get to look back and feel them all over again. I really love how we live and exist. Simple and full. I love you, Bim Bim 🤍. Cheers to many more years of keeping memories together 🥂✨ hehe',
+    story: 'I can’t even remember if class was cancelled that day or if it was one of those times we had to go and get cash for something but I do remember how you made us walk all the way to Access Bank just to take pictures 😭😂. All in the name of "keeping memories". You’re always saying "keep memories, and I’m honestly so grateful you do because now we have so many little pieces of us to hold on to. Like that one when you were roommates with Jewel and I was under your blanket 😂😂. We’ve made so many memories together, and I love that we didn’t just live them, we captured them. We get to look back and feel them all over again. I really love how we live and exist. Simple and full. I love you, Bim Bim 🤍. Cheers to many more years of keeping memories together 🥂✨ hehe',
     date: 'June 2024' 
   },
 { 
@@ -126,7 +126,7 @@ const MEMORIES: Memory[] = [
 const LETTERS: Letter[] = [
   {
     id: 1,
-    title: "To My Rhema",
+    title: "My Princess❤️",
     content: "Words can't describe how amazing you are, knowing you has brought so much peace and joy, from the laughters, to the fights, to the late night talks, to the dates, every single moment with you feels so special. Happy Birthday my princess, I love you so much❤️",
     signature: "Toyosi, Yours Always"
   },
@@ -144,8 +144,8 @@ const LETTERS: Letter[] = [
   },
    {
     id: 4,
-    title: "To My Rhema",
-    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
+    title: "My Rhema",
+    content: "Happy Birthday Rhema. I love you so much. You are such a delight with an amazing soul. I love being your friend and I'm super grateful to have you in my life. I pray this year brings you peace, joy, and everything your heart has been hoping for. I love you always.",
     signature: "Otokini"
   },
    {
@@ -157,7 +157,7 @@ const LETTERS: Letter[] = [
    {
     id: 6,
     title: "My precious Bim bim🌚🫶",
-    content: "You're such an interesting person, I love love how you are a blend compassion and 'hard guy' all in one package. You're a very grounded person and I love that I have someone like you in my life🤭. It took a little while for us to get where we are right now but I'm grateful for the gift of you❤️❤️. I cherish and love love you so so muchhhhh.",
+    content: "You're such an interesting person, I love love how you are a blend of compassion and 'hard guy' all in one package. You're a very grounded person and I love that I have someone like you in my life🤭. It took a little while for us to get where we are right now but I'm grateful for the gift of you❤️❤️. I cherish and love love you so so muchhhhh.",
     signature: "Deborah🌚🌚"
   },
    {
