@@ -35,26 +35,7 @@ interface Letter {
 
 const RHEMA_NAME = "Rhema";
 // Near the top of App.tsx
-const REASONS = [
-  "The way you laugh at my jokes (even the bad ones).",
-  "How you always show up for me when I need you most.",
-  "The way your eyes crinkle when you're genuinely happy.",
-  "Your kindness towards every soul you encounter.",
-  "How you make the simplest moments feel like grand adventures.",
-  "The peace I feel just being in your presence.",
-  "Your strength and the grace with which you carry it.",
-  "The way you believe in me even when I don't believe in myself."
-];
 
-     const [currentReason, setCurrentReason] = useState(REASONS[0]);
-
-const nextReason = () => {
-  let next;
-  do {
-    next = REASONS[Math.floor(Math.random() * REASONS.length)];
-  } while (next === currentReason && REASONS.length > 1);
-  setCurrentReason(next);
-};
 
 const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
