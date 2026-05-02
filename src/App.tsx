@@ -34,35 +34,44 @@ interface Letter {
 // Change these to make the website perfect for Rhema!
 
 const RHEMA_NAME = "Rhema";
-
+// Near the top of App.tsx
+const PHOTO_DUMP = [
+  "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1516589174184-c685db295ef7?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1520699697851-3dc68aa3a474?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?auto=format&fit=crop&q=80&w=800",
+];
 const MEMORIES: Memory[] = [
   { 
     id: 1, 
-     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646536/memory3_zq0wsq.jpg',
-    caption: 'The day we first laughed together.', 
-    story: 'That Tuesday afternoon wasn\'t supposed to be special, but then you told that ridiculous joke about the penguin. I don\'t even remember the punchline anymore, but I remember how your eyes crinkled at the corners. It was the first time I realized that your laughter was my favorite sound in the world.\n\nWe sat on that bench for hours, ignoring the world around us, just caught in the orbit of our own joy. Every time I see this picture, I can still feel the warmth of that sun and the lightness in my chest that hasn\'t gone away since.',
-    date: 'Spring 2023' 
-  },
-  { 
-    id: 2, 
-    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646525/memory4_gtrkti.jpg',
-    caption: 'Sunset silhouettes and promises.', 
-    story: 'We watched the sky turn from gold to violet, and for a moment, everything was quiet. You looked at me and said you felt like the world was too big, but in that moment, the only world I cared about was right here.\n\nYou have this incredible ability to make even the grandest landscapes feel intimate. This sunset was beautiful, but it was just the backdrop to the conversation we had about our dreams and where we wanted to go. I\'m so glad those paths led us here.',
-    date: 'Summer 2023' 
-  },
-  { 
-    id: 3, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg',
     caption: 'Where it all started.', 
     story: 'Even if I forgot every other day, I don’t think I could ever forget the day our story began. It was supposed to be just another normal day at the office with Stephanie, nothing special, nothing planned. But somehow, that ordinary day became one of the best days of my life. I remember seeing your pictures before we even met and wondering who you were. There was something about you that caught my attention. I didn’t say it out loud then, but I knew I was already a little drawn to you. Curious, interested. Maybe even a bit more than I wanted to admit at the time. And then Steph, being Steph, didn’t hesitate for a second. She looked at me and said we would be perfect for each other. I laughed it off, of course but deep down, I didn’t completely disagree. When we finally met, it felt awkward like first meetings usually do. I am so happy something so random ended up giving me the best partner I could ever wish for.',
     date: 'May 2025' 
   },
   { 
-    id: 4, 
+    id: 2, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg',
     caption: 'Our first date.', 
     story: 'The walls were filled with color, meaning, stories but honestly, I barely remember most of the art. What I remember is you.We weren’t dating yet. Nothing was official. But you knew. I think that’s what made everything feel a little more real, a little more fragile. Every conversation felt like it mattered more than it should have for a casual day out. We looked at artworks, pretending to focus on the paintings, but really, we were just learning each other. The way you spoke, the way you laughed, the little pauses before you said something honest I noticed all of it. It didn’t feel like small talk. It felt like the beginning of something, even if neither of us said it out loud.There was this quiet comfort too. No pressure, no labels, no expectations. Just two people choosing to be there, choosing to talk, choosing to stay a little longer than necessary.Looking back, it’s funny how something so simple became so important. No big moment, no dramatic confession  just conversations in a room full of art. But somehow, that was enough.',
     date: 'August 2025' 
+  },
+  { 
+    id: 3, 
+     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777736365/DD088ABC-A44B-4EB2-A0AE-0D98B1019972_1_105_c_adbvw6.jpg',
+    caption: 'Late night calls', 
+    story: 'There’s something about our late night calls that feels like a world of its own. The day would be loud and busy but the night always belonged to us. It didn’t matter how tired I was or how long the day had been hearing your voice made everything slow down. We’d talk about anything and everything. Sometimes it was deep conversations about life, dreams, and the future. Other times it was the most random, unserious things that somehow had us laughing so much. And then there were those quiet moments when neither of us had much to say(comfortable silence like you would always say), but neither of us wanted to hang up. I’d catch myself smiling for no reason, just listening to you speak on the other end. Time didn’t feel real anymore. Minutes turned into hours, and somehow it still never felt like enough. There were nights we told each other, “just five more minutes,” but five minutes with you always turned into one more hour. Sleep could wait. And even after the call ended, it didn’t really feel like you were gone. Your voice would stay in my head, your laughter replaying like a favorite song I didn’t want to turn off. Those calls weren’t just conversations. They were where I felt closest to you.',
+  },
+  { 
+    id: 4, 
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646525/memory4_gtrkti.jpg',
+    caption: 'Sunset silhouettes and promises.', 
+    story: 'We watched the sky turn from gold to violet, and for a moment, everything was quiet. You looked at me and said you felt like the world was too big, but in that moment, the only world I cared about was right here.\n\nYou have this incredible ability to make even the grandest landscapes feel intimate. This sunset was beautiful, but it was just the backdrop to the conversation we had about our dreams and where we wanted to go. I\'m so glad those paths led us here.',
+    date: 'Summer 2023' 
   },
 { 
     id: 5, 
@@ -234,7 +243,44 @@ export default function App() {
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_20%_30%,_rgba(240,90,90,0.05)_0%,_transparent_50%)]" />
         <div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_80%_70%,_rgba(240,90,90,0.05)_0%,_transparent_50%)]" />
       </div>
+    {/* Photobook Section */}
+<section className="py-24 relative z-10 overflow-hidden bg-romantic-50/50">
+  <div className="max-w-7xl mx-auto px-4">
+    <div className="flex items-center gap-4 mb-12">
+      <Sparkles className="w-8 h-8 text-romantic-500" />
+      <h2 className="serif text-3xl md:text-4xl font-bold">Our Photobook</h2>
+    </div>
 
+    <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+      {PHOTO_DUMP.map((url, i) => (
+        <motion.div
+          key={i}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: (i % 4) * 0.1 }}
+          className="relative group break-inside-avoid"
+        >
+          {/* Polaroid Card Effect */}
+          <div 
+            className="bg-white p-3 pb-10 shadow-lg ring-1 ring-romantic-100/50 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2"
+            style={{ transform: `rotate(${(i % 2 === 0 ? 1 : -1) * (Math.random() * 2 + 1)}deg)` }}
+          >
+            <img 
+              src={url} 
+              alt="Memory" 
+              className="w-full h-auto grayscale-[0.2] group-hover:grayscale-0 transition-all duration-500"
+              referrerPolicy="no-referrer"
+            />
+            {/* Decorative Tape Element */}
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-8 bg-romantic-200/40 backdrop-blur-sm -rotate-2 opacity-60 pointer-events-none" />
+          </div>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
+      
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden">
         <motion.div
