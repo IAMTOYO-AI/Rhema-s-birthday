@@ -375,19 +375,40 @@ export default function App() {
         </div>
       </section>
       
-      <section className="py-20 text-center">
-  <h2 className="text-3xl serif mb-6">Why I Love You 💖</h2>
+      {/* Reasons Section */}
+<section className="py-20 relative z-10">
+  <div className="max-w-2xl mx-auto px-4 text-center">
+    <motion.div 
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      className="bg-white/40 backdrop-blur-md border border-romantic-100 p-10 md:p-16 rounded-[40px] shadow-xl"
+    >
+      <div className="mb-8 inline-flex items-center justify-center w-12 h-12 bg-romantic-100 rounded-full">
+        <Heart className="w-6 h-6 text-romantic-500 fill-romantic-500" />
+      </div>
+      
+      <AnimatePresence mode="wait">
+        <motion.p
+          key={currentReason}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          className="serif text-2xl md:text-3xl italic text-gray-800 leading-relaxed mb-10 h-[100px] flex items-center justify-center px-4"
+        >
+          "{currentReason}"
+        </motion.p>
+      </AnimatePresence>
 
-  <p className="text-xl mb-6 transition-all duration-300">
-    {currentReason}
-  </p>
-
-  <button
-    onClick={nextReason}
-    className="px-6 py-3 rounded-full bg-pink-500 text-white hover:scale-105 hover:bg-pink-600 transition-all duration-300 shadow-md"
-  >
-    Tap me 💕
-  </button>
+      <button
+        onClick={nextReason}
+        className="group relative px-8 py-4 bg-gray-900 text-white rounded-full font-semibold overflow-hidden transition-all hover:pr-12 active:scale-95 shadow-lg"
+      >
+        <span className="relative z-10 italic">Click for a reason I love you</span>
+        <Heart className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-romantic-300 opacity-0 group-hover:opacity-100 transition-all" />
+      </button>
+    </motion.div>
+  </div>
 </section>
       
    {/* Photobook Section - Bento Grid */}
