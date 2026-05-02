@@ -46,6 +46,16 @@ const REASONS = [
   "The way you believe in me even when I don't believe in myself."
 ];
 
+     const [currentReason, setCurrentReason] = useState(REASONS[0]);
+
+const nextReason = () => {
+  let next;
+  do {
+    next = REASONS[Math.floor(Math.random() * REASONS.length)];
+  } while (next === currentReason && REASONS.length > 1);
+  setCurrentReason(next);
+};
+
 const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
@@ -366,16 +376,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
-      const [currentReason, setCurrentReason] = useState(REASONS[0]);
-
-const nextReason = () => {
-  let next;
-  do {
-    next = REASONS[Math.floor(Math.random() * REASONS.length)];
-  } while (next === currentReason && REASONS.length > 1);
-  setCurrentReason(next);
-};
       {/* Reasons Section */}
 <section className="py-20 relative z-10">
   <div className="max-w-2xl mx-auto px-4 text-center">
