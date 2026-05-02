@@ -389,7 +389,13 @@ export default function App() {
                 className={`relative group overflow-hidden rounded-[32px] shadow-sm hover:shadow-2xl transition-all duration-500 ${
                   i === 0 ? "col-span-2 row-span-2" : 
                   i === 3 ? "row-span-2" : 
-                  i === 5 ? "col-span-2" : ""
+                  i === 5 ? "col-span-2" :
+                  i === 8 ? "col-span-2 row-span-2" : 
+                  i === 10 ? "row-span-2" : 
+                  i === 13? "col-span-2" : 
+                  i === 15 ? "col-span-2 row-span-2" : 
+                  i === 18 ? "row-span-2" : 
+                  i === 20 ? "col-span-2" : ""
                 }`}
               >
                 <img 
