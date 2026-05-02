@@ -39,27 +39,48 @@ const MEMORIES: Memory[] = [
   { 
     id: 1, 
      url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646536/memory3_zq0wsq.jpg',
-    caption: 'The day we last laughed together.', 
+    caption: 'The day we first laughed together.', 
     story: 'That Tuesday afternoon wasn\'t supposed to be special, but then you told that ridiculous joke about the penguin. I don\'t even remember the punchline anymore, but I remember how your eyes crinkled at the corners. It was the first time I realized that your laughter was my favorite sound in the world.\n\nWe sat on that bench for hours, ignoring the world around us, just caught in the orbit of our own joy. Every time I see this picture, I can still feel the warmth of that sun and the lightness in my chest that hasn\'t gone away since.',
     date: 'Spring 2023' 
   },
   { 
     id: 2, 
-    url: 'https://lh3.googleusercontent.com/pw/AP1GczOfHeQYb3pJ2U0Lyg-0tSG-uP-XXYRqPCe961OmzKudD0rMsfoG9B-OoewDeDGPfTHhNeHJ3ltu3pq4sERbp0jg0cxnldRK20MxdNjuk-_mQaT_0iThIAXnlzErhIC9kCjxFG2u3uVJTrOxwX6LhPgFJIojctOJhMTQjALMY9DTf-ieYjP4XijBucUNKIyC9dUhbh3tNMTxajKmeOsFgXRdfZZohvSQax3TYBuS4X_lyNloX4oCqQ4XSa-eRavM57BaR7Bf6OcXJMMAtX0WjjspTKGnlOlqiUusTqN6NnRqT6A8H-xL383KfdFJ5gGkwssggcJFMr8bzC3Da6J450gXY9YILLHG-gyk4wDbWczLy3uf5Ng0G9khsmRNydh4BFbf74t919CfuBL9BFIpnPFx5v3shYhRRodTZVhI91VXQhA4rU8MJUlOtXSxFZRgZVgqGbwf-tl5aHdVtRfk3eY8TiWPHRxPARXvTa3QhAW6zVMmJh5uBK7oLczBr9k8Mmeh7HII4t8jKdyIUURZX5EhMB-m0u9ttgKkV6W63r-nejI9OBt0OOLE1G4mrBkBJn1VG3DiLdyHmv16ALMwarQpVCKo4rYDuNOcOtwfggteSE3dNRK7DG4PqUuiKcw_4xZooSH4JYnLuFsbk1gMIz-V6mFmtcxkGe6jWR4CKAnwr3Ft6P2enkeJ5uEa1SCK13QqDOhfE7F0Zm4R1yooZyyNASe1HXzymEi5SpzXri4g1EMtXzBiNmWMRHtIjH0GwLvMFcSFa-BHxZWcaA-ksRz08_HXVzJwSLW8QCMdr6mHtCVYzDY15GhQeoekiSn6pY7fkF4ejNoouEXJ94OBJQLZ74336hHPm-cSa7hC7OIyBFuDTcjre1k29M7ciHg0xGxBlymcb52ICJ05=w586-h780-s-no?authuser=0', 
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646525/memory4_gtrkti.jpg'
     caption: 'Sunset silhouettes and promises.', 
     story: 'We watched the sky turn from gold to violet, and for a moment, everything was quiet. You looked at me and said you felt like the world was too big, but in that moment, the only world I cared about was right here.\n\nYou have this incredible ability to make even the grandest landscapes feel intimate. This sunset was beautiful, but it was just the backdrop to the conversation we had about our dreams and where we wanted to go. I\'m so glad those paths led us here.',
     date: 'Summer 2023' 
   },
   { 
     id: 3, 
-    url: 'https://lh3.googleusercontent.com/pw/AP1GczNt4JkOONEuvB2olqzt_VLU4M8itrjrDY1AOplGxTg0MUI9hvRbC6-GDWeV2ItzE9bCS930F7kbcXCUkO9QLgqwJEOV2Ppx88wYDAgbqTJnuY4-oQW4QrdzENbxcRIUAKKLN5Hk9CvrLDyIVU2azFO5xdCdMfpE633AYpMaBu3RGUr1Td7TLE7H0qKdms6OdFtPINc0gz_ffgqhIqFzFS2VmUsfLu_Tm2xHhFcTC_vaSBMPOU5jt3ts9rHyZ4Agn3TYF6q6_h1DuHf5OixNJTHcjLk4aVIWMrhffegWquCy2srsAWdIezqQhLMDhcf4KdbOk8cybg0fh952-j3aCFMsL331KGIQLIKQtbJ7jWRgP9tDt5jRLF1JTcA_y9Z13YoILDM7IPi4SZd9nzR_qVjpkmiDwMcaqYYLTzM--uAMdDSenoMEvfTdFQZ5Ixx8h4H2YAuIrBxRJ0BTkrsBNtrsYW7E44nQcJe0c2SNZoA8SmT6t7pohScnmvLrDUAc65NL-VmrKUg5K-odczFN9vXeiAPqWCYzhSSflz-4Dqocm7SB1f_BPXZ0as2taMERcDbUxks-nZCclmwTc-6pqMAphW2Urv70E8KB4xanjV4LBy7AyP2z6L7n0yyZPe7bm_VK09JnMTAjxqZV7X24akzmq-Pw8iWNPu6hNICGDCVsPv-KwYPtsz7WZxHHpl6wKnu7lHeXoWqDk_nYW3jRi_lGXi2nmU8d3aLWvJw9HDi0s146Ww0gTGPX5gU2EvYN4G0586KnTTBEepWhMZHdIv992D_5Z9Hdh1bmkzeXfU8q_kcJ_gcNijUzPgreVnJ9lPIW_m7VdNWU2YC3VFFuNteVbaOTWkR81g4wNNCVoQC_ahlpgottFgO4u3BjRBXbyUY5VRhZB_QAafUoozI=w828-h561-s-no?authuser=0', 
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg'
     caption: 'A masterpiece of grace.', 
     story: 'I caught you looking at the rain, completely lost in thought. You didn\'t see me take this, and that\'s why it\'s my favorite. It\'s the "between" moments—the unposed, unscripted versions of you—that truly show your light.\n\nRhema, you don\'t have to try to be beautiful; you just are. Even in the greyest weather, you carry a vibrance that makes the world feel colorful. This photo is a reminder that beauty isn\'t a performance for you, it\'s your natural state.',
     date: 'Autumn 2023' 
   },
   { 
     id: 4, 
-    url: 'https://lh3.googleusercontent.com/pw/AP1GczMAAuCB9JGF01k0hUepmSa9li_0HCyzpOloF8YU8NCwg96Z0cVeHnGhsrhQ6n-vBnwHUAocHdU-fbWYNohiPLFptfn7GqZHyUcv9FvkC8wLdsOuTRC8sqIJx8XXKammMDDHCForT0vQN6PRZWZEsmX0UGYrZZLTO0g_QYsxzzNQkRa6AmDpNDzZi8qS249zRH6RK21ayQUseKYAnEsh6H8wmltGFwUAJhmBa72tZI9mIAm2QMJCPkA2yt5S7KQF2HDheebg01HrOc5fidRFnoNp4Gy3p1pP9yngF6uDHPm7WkyyYOjHgp4qG6trMsuhWPxZFNIAJ6ZThtCl-9cMS1UXLZFOAzOfC42BW5TMvkFcI8D4lqpgIQaQcPEMFqLslsoopowSPFiGf9YMOMkvtnvdW1ldDCxgfnfcu-M0xx_vD47ZKV4rpGoBjrV6lrlnfHEonae2vfPDU18hYcqeGLTaEeMRH7eV527JAkXdxJWcQcq0IFZ4QOGAAWVOzbcu2zpsmpmZgxC2xj_De032KgNU1iK1C1bG5WznLCQH7TEHBM_aMh-iDWoWJJKv9bohjlLmArQR_O_CDUXpK8U7dTwMHe7PicfLyy5G6RxI_xS3uyTAfSeyvMbOCvIzAcsq8jLoRXyv3kzoGGAw310YteqqlBI-VCqqhlblVlenaWHDpcHY6163QkMFS1K__G6BLXPrtFr1FJE-UCsv0Uv3M5yfeRpuBjYcPIKz8xx6J3NhpM2e7r0_vHLZ2-D9leNDwkKGvTNmXQmfMkRT_KoDvg2tU_VtVeTLUV9N3ezgjrF8sEjdVw-qkcQfRmRVRYb1PTuqu4FrAcb4wkIhCA_Mo77sXpCqbKndkZ1y8tvG7y_M2wxDMUC7it9dk9fYNg7qhY2FTBQGvb6H1LeZ=w1170-h1560-s-no?authuser=0', 
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg'
+    caption: 'Our favorite quiet moments.', 
+    story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
+    date: 'Winter 2024' 
+  },
+{ 
+    id: 5, 
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg'
+    caption: 'Our favorite quiet moments.', 
+    story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
+    date: 'Winter 2024' 
+  },
+  { 
+    id: 6, 
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg'
+    caption: 'Our favorite quiet moments.', 
+    story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
+    date: 'Winter 2024' 
+  },
+    { 
+    id: 7, 
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg'
     caption: 'Our favorite quiet moments.', 
     story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
     date: 'Winter 2024' 
