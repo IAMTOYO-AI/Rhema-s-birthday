@@ -35,6 +35,17 @@ interface Letter {
 
 const RHEMA_NAME = "Rhema";
 // Near the top of App.tsx
+const REASONS = [
+  "The way you laugh at my jokes (even the bad ones).",
+  "How you always show up for me when I need you most.",
+  "The way your eyes crinkle when you're genuinely happy.",
+  "Your kindness towards every soul you encounter.",
+  "How you make the simplest moments feel like grand adventures.",
+  "The peace I feel just being in your presence.",
+  "Your strength and the grace with which you carry it.",
+  "The way you believe in me even when I don't believe in myself."
+];
+
 const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
@@ -355,6 +366,52 @@ export default function App() {
           </div>
         </div>
       </section>
+
+      const [currentReason, setCurrentReason] = useState(REASONS[0]);
+
+const nextReason = () => {
+  let next;
+  do {
+    next = REASONS[Math.floor(Math.random() * REASONS.length)];
+  } while (next === currentReason && REASONS.length > 1);
+  setCurrentReason(next);
+};
+      {/* Reasons Section */}
+<section className="py-20 relative z-10">
+  <div className="max-w-2xl mx-auto px-4 text-center">
+    <motion.div 
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      className="bg-white/40 backdrop-blur-md border border-romantic-100 p-10 md:p-16 rounded-[40px] shadow-xl"
+    >
+      <div className="mb-8 inline-flex items-center justify-center w-12 h-12 bg-romantic-100 rounded-full">
+        <Heart className="w-6 h-6 text-romantic-500 fill-romantic-500" />
+      </div>
+      
+      <AnimatePresence mode="wait">
+        <motion.p
+          key={currentReason}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          className="serif text-2xl md:text-3xl italic text-gray-800 leading-relaxed mb-10 h-[100px] flex items-center justify-center px-4"
+        >
+          "{currentReason}"
+        </motion.p>
+      </AnimatePresence>
+
+      <button
+        onClick={nextReason}
+        className="group relative px-8 py-4 bg-gray-900 text-white rounded-full font-semibold overflow-hidden transition-all hover:pr-12 active:scale-95 shadow-lg"
+      >
+        <span className="relative z-10 italic">Click for a reason I love you</span>
+        <Heart className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-romantic-300 opacity-0 group-hover:opacity-100 transition-all" />
+      </button>
+    </motion.div>
+  </div>
+</section>
+      
    {/* Photobook Section - Bento Grid */}
       <section className="py-24 relative z-10 overflow-hidden bg-white">
         <div className="max-w-7xl mx-auto px-4">
