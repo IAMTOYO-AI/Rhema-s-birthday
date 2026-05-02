@@ -133,8 +133,8 @@ const LETTERS: Letter[] = [
   {
     id: 2,
     title: "My Bim Bim 🤍",
-    content: “I’ve seen you grow, I have seen you push through, and I’m so proud of you” This song reminds me of you and it reminds me of how far we’ve come. \n  I love you, my girl. You’re a breath of fresh air and someone I can truly call my friend. Thank you for always being dear (wordplay fully intended 😉). \n Happy birthday, my queen. Till we’re old and grey o 🤍",
-    signature: "Yours truly \n Feyi❤️"
+    content: “I’ve seen you grow, I have seen you push through, and I’m so proud of you” This song reminds me of you and it reminds me of how far we’ve come. "\n"  I love you, my girl. You’re a breath of fresh air and someone I can truly call my friend. Thank you for always being dear (wordplay fully intended 😉). ""\n" Happy birthday, my queen. Till we’re old and grey o 🤍",
+    signature: "Yours truly "\n" Feyi❤️"
   },
    {
     id: 3,
