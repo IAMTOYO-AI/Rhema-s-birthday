@@ -85,6 +85,13 @@ const MEMORIES: Memory[] = [
     story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
     date: 'Winter 2024' 
   },
+  { 
+    id: 8, 
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg',
+    caption: 'Our favorite quiet moments.', 
+    story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
+    date: 'Winter 2024' 
+  },
   ];
 const LETTERS: Letter[] = [
   {
@@ -121,13 +128,19 @@ const LETTERS: Letter[] = [
     id: 6,
     title: "To My Rhema",
     content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
-    signature: "Tehilla"
+    signature: "Debbie"
   },
    {
     id: 7,
     title: "To My Rhema",
     content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
-    signature: "Debbie"
+    signature: "Goodnews"
+  },
+  {
+    id: 8,
+    title: "To My Rhema",
+    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
+    signature: "Angel"
   }
 ];
 
