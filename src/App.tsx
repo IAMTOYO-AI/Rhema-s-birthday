@@ -148,7 +148,7 @@ const LETTERS: Letter[] = [
     id: 2,
     title: "My Bim Bim 🤍",
     content: "I've seen you grow I've seen you push through, and I am so pround of you. This song reminds me of you and it reminds me of how far we have come. I love you my girl. You’re a breath of fresh air and someone I can truly call my friend. Thank you for always being dear(wordplay fully intended 😉). Happy birthday, my queen. Till we’re old and grey o🤍",
-    signature: "Yours truly\nFeyi❤️"
+    signature: "Yours truly <br \> Feyi❤️"
   },
    {
     id: 3,
@@ -173,18 +173,6 @@ const LETTERS: Letter[] = [
     title: "My precious Bim bim🌚🫶",
     content: "You're such an interesting person, I love love how you are a blend of compassion and 'hard guy' all in one package. You're a very grounded person and I love that I have someone like you in my life🤭. It took a little while for us to get where we are right now but I'm grateful for the gift of you❤️❤️. I cherish and love love you so so muchhhhh.",
     signature: "Deborah🌚🌚"
-  },
-   {
-    id: 7,
-    title: "To My Rhema",
-    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
-    signature: "Goodnews"
-  },
-  {
-    id: 8,
-    title: "To My Rhema",
-    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
-    signature: "Angel"
   }
 ];
 
