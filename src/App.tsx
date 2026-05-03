@@ -110,7 +110,7 @@ const MEMORIES: Memory[] = [
   },
 { 
     id: 5, 
-    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg',
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777736365/DD088ABC-A44B-4EB2-A0AE-0D98B1019972_1_105_c_adbvw6.jpg',
     caption: 'Our favorite quiet moments.', 
     story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
     date: 'Winter 2024' 
