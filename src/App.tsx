@@ -121,10 +121,9 @@ const MEMORIES: Memory[] = [
   },
   { 
     id: 6, 
-    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg',
-    caption: 'Our favorite quiet moments.', 
-    story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
-    
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777836579/photo_2026-05-03_20.29.20_dvoq45.jpg',
+    caption: 'Moments with Debbie', 
+    story: 'This was Matric day, when no one came for any of us so we all had eachother😂😂 you and our roomate came to find me so we could take pictures',
   },
     { 
     id: 7, 
@@ -183,6 +182,12 @@ const LETTERS: Letter[] = [
     title: "To my princess of Jos",
     content: "You’re such a kind and sweet girl and I love you soooo much. I love how we’re soooo weird together and I’m proud of the progress we’ve both made on our character. I’m so excited for more progress this year and I’m forever rooting for youuu.",
     signature: "Ayomi"
+  }
+  {
+    id: 8,
+    title: "To Bim",
+    content: "Xup bbg, you mean so much to me, no one can replace the spot you hold in my heart. You’ve been such an integral part of my relationship with Jesus, and you’d be surprised how often your name comes up when I talk about the people I adore. Happy Birthday, supergirl, yes you really can do it all!",
+    signature: "Juloo, your housewife"
   }
   
 
