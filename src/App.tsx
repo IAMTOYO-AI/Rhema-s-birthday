@@ -206,13 +206,6 @@ export default function App() {
     setCurrentReason(next);
   };
 
-  
-  
-
-  
-  chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-}, [messages, isTyping]);
-
   const handleSend = async () => {
     if (!input.trim() || isTyping) return;
 
