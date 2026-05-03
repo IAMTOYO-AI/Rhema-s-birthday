@@ -129,8 +129,7 @@ const MEMORIES: Memory[] = [
     id: 7, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646525/memory4_gtrkti.jpg',
     caption: 'Our last date', 
-    story: 'If I had to pick my favorite days then this day would definitely be one of them. I got there first, pretending not to check my phone every thirty seconds because I couldn't wait to see you. The moment you arrived, the whole place felt warmer. We had our conversations, took pictures and tried the zootopia chanllenge you forced me to do, I really liked it sha. The movie started, but honestly it became background noise. Not because it was bad, but because every now and then, I’d glance over to look at how beautiful you are. I remember how much you wanted to sleep but I won't let you. If I forgot any part of that day it would definitely not be the adventure we had at the end of the day, it was nice but babe we are never doing that again😂 ",
-    
+    story: '  If I had to pick my favorite days then this day would definitely be one of them. I got there first, pretending not to check my phone every thirty seconds because I could not wait to see you. The moment you arrived, the whole place felt warmer. We had our conversations, took pictures and tried the zootopia chanllenge you forced me to do, I really liked it sha. The movie started, but honestly it became background noise. Not because it was bad, but because every now and then, I’d glance over to look at how beautiful you are. I remember how much you wanted to sleep but I would not let you. If I forgot any part of that day it would definitely not be the adventure we had at the end of the day, it was nice but babe we are never doing that again😂 ',
   },
   { 
     id: 8, 
