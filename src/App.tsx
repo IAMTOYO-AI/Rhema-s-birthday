@@ -71,13 +71,13 @@ const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756219/photo_2026-02-10_06.49.38_cgwcsp.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756219/photo_2026-02-10_06.49.38_cgwcsp.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756516/IMG_9571_vbz6xp.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802863/IMG_3431_qpvs5j.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756178/6716484d-826d-4970-bfca-0c429a5b1e4c_vfrk7e.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802862/IMG_3360_kanwzy.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756625/23d60f27-a37e-42ad-992d-7933860ec3d1_3_b6xv8c.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802860/photo_2026-04-26_12.56.27_ad1jax.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802860/photo_2026-04-26_12.56.27_ad1jax.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646525/memory4_gtrkti.jpg",
 ];
 const MEMORIES: Memory[] = [
   { 
