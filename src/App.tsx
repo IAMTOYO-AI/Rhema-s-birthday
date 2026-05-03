@@ -78,9 +78,9 @@ const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802860/photo_2026-04-26_12.56.27_ad1jax.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802864/photo_2025-11-30_16.07.19_wowoxt.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802863/IMG_3370_pgzcpc.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802860/photo_2026-04-26_12.56.27_ad1jax.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802864/photo_2025-11-30_16.07.19_wowoxt.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802863/IMG_3370_pgzcpc.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777808674/photo_2026-05-03_12.43.31_nclpwf.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777808673/photo_2026-05-03_12.43.29_kvguev.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777808673/photo_2026-05-03_12.43.28_st827b.jpg",
 ];
 const MEMORIES: Memory[] = [
   { 
