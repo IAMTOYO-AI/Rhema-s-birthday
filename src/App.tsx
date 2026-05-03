@@ -68,16 +68,16 @@ const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756625/23d60f27-a37e-42ad-992d-7933860ec3d1_3_b6xv8c.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756516/IMG_9571_vbz6xp.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756287/e9dea867-2968-4e93-ba0b-aac9661b5249_qyb3bm.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802866/a64aa5c3-eefd-4218-8302-0290551c915c_qn94bn.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756219/photo_2026-02-10_06.49.38_cgwcsp.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756219/photo_2026-02-10_06.49.38_cgwcsp.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802866/a64aa5c3-eefd-4218-8302-0290551c915c_qn94bn.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802863/IMG_3431_qpvs5j.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756178/6716484d-826d-4970-bfca-0c429a5b1e4c_vfrk7e.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802862/IMG_3360_kanwzy.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802862/photo_2025-11-03_23.18.34_ds0kqg.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802860/photo_2026-04-26_12.56.27_ad1jax.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802860/photo_2026-04-26_12.56.27_ad1jax.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646525/memory4_gtrkti.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802864/photo_2025-11-30_16.07.19_wowoxt.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802863/IMG_3370_pgzcpc.jpg",
 ];
 const MEMORIES: Memory[] = [
   { 
