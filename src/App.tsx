@@ -614,8 +614,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="py-12 bg-white text-center border-t border-romantic-100 relative z-10">
-        <p className="serif italic text-gray-400">Made with a heart full of love for {RHEMA_NAME}.</p>
-        <p className="text-xs text-romantic-300 uppercase tracking-widest mt-2">{new Date().getFullYear()} Special Edition</p>
+        <p className="serif italic text-gray-400">Made with a heart full of love for my {RHEMA_NAME}.</p>
       </footer>
     </div>
   );
