@@ -165,8 +165,8 @@ const LETTERS: Letter[] = [
   },
    {
     id: 5,
-    title: "To My Rhema",
-    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
+    title: "My Bim Bim",
+    content: "Happy birthday Rhema, my sweet baby girl, to know you Bim Bim is to love you, I’m grateful for the friendship we have and for the chance to love you. I pray God grants your deepest desires. Have the best day my princess",
     signature: "Dum Dum"
   },
    {
