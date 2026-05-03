@@ -361,16 +361,7 @@ export default function App() {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
 
                   />
-                  <div className={`relative ${memory.fit === 'contain' ? 'aspect-auto bg-white p-2' : 'aspect-[3/4]'} overflow-hidden rounded-2xl mb-4 bg-gray-100 ring-1 ring-romantic-100 shadow-sm group-hover:shadow-xl transition-all duration-500`}>
-  <motion.img
-    layoutId={`memory-img-${memory.id}`}
-    src={memory.url}
-    alt={memory.caption}
-    className={`w-full ${memory.fit === 'contain' ? 'h-auto object-contain' : 'h-full object-cover'} transition-transform duration-700 group-hover:scale-105`}
-    referrerPolicy="no-referrer"
-  />
-  {/* ... overlay code ... */}
-</div>
+                  
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <div className="text-white flex items-center gap-2 scale-90 group-hover:scale-100 transition-transform duration-300">
                       <BookOpen className="w-5 h-5" />
