@@ -310,7 +310,7 @@ export default function App() {
           </motion.div>
           <h1 className="serif text-5xl md:text-8xl font-bold text-gray-900 mb-4 tracking-tight">
             Happy Birthday, <br />
-            <span className="text-romantic-500 italic">{RHEMA_NAME}</span>
+            <span className="inline-block mt-6 md:mt-10 text-romantic-500 italic">{RHEMA_NAME}</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto font-light leading-relaxed">
             A heartfelt gift for my princess who makes every moment feel amazing. <br />
