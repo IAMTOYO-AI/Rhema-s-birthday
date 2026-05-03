@@ -100,7 +100,7 @@ const MEMORIES: Memory[] = [
     caption: 'Late night calls', 
     story: 'There’s something about our late night calls that feels like a world of its own. The day would be loud and busy but the night always belonged to us. It didn’t matter how tired I was or how long the day had been hearing your voice made everything slow down. We’d talk about anything and everything. Sometimes it was deep conversations about life, dreams, and the future. Other times it was the most random, unserious things that somehow had us laughing so much. And then there were those quiet moments when neither of us had much to say(comfortable silence like you would always say), but neither of us wanted to hang up. I’d catch myself smiling for no reason, just listening to you speak on the other end. Time didn’t feel real anymore. Minutes turned into hours, and somehow it still never felt like enough. There were nights we told each other, “just five more minutes,” but five minutes with you always turned into one more hour. Sleep could wait. And even after the call ended, it didn’t really feel like you were gone. Your voice would stay in my head, your laughter replaying like a favorite song I didn’t want to turn off. Those calls weren’t just conversations. They were where I felt closest to you.',
     date: 'Late Nights',
-    fit: 'contain'
+    fit?: 'cover' | 'contain';
   },
   { 
     id: 4, 
@@ -359,8 +359,18 @@ export default function App() {
                     src={memory.url}
                     alt={memory.caption}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    
+
                   />
+                  <div className={`relative ${memory.fit === 'contain' ? 'aspect-auto bg-white p-2' : 'aspect-[3/4]'} overflow-hidden rounded-2xl mb-4 bg-gray-100 ring-1 ring-romantic-100 shadow-sm group-hover:shadow-xl transition-all duration-500`}>
+  <motion.img
+    layoutId={`memory-img-${memory.id}`}
+    src={memory.url}
+    alt={memory.caption}
+    className={`w-full ${memory.fit === 'contain' ? 'h-auto object-contain' : 'h-full object-cover'} transition-transform duration-700 group-hover:scale-105`}
+    referrerPolicy="no-referrer"
+  />
+  {/* ... overlay code ... */}
+</div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <div className="text-white flex items-center gap-2 scale-90 group-hover:scale-100 transition-transform duration-300">
                       <BookOpen className="w-5 h-5" />
