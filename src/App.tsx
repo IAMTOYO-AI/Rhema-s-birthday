@@ -114,9 +114,9 @@ const MEMORIES: Memory[] = [
   },
 { 
     id: 5, 
-    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777736365/DD088ABC-A44B-4EB2-A0AE-0D98B1019972_1_105_c_adbvw6.jpg',
-    caption: 'Our favorite quiet moments.', 
-    story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777833483/photo_2026-05-03_19.15.27_hnojya.jpg',
+    caption: 'Memories with Posi', 
+    story: 'On this day, we had a call because I forgot my password yet again😂. Then right after, we spoke about me having to leave Quidax and I had said I wanted to give up. But you encouraged me and that pushed me to keep on fighting. I keep referencing this story because if you didn’t hold my grounded that time, I would have missed out on a destiny moment. This is to thank you again. I’d forever be grateful my girllll. For always pushing to do the things I’m too shy to do, thank you. For always having serious conversations in the weirdest possible ways, thank you. For making me feel so special on my 19th birthday, I say thank you again. Thank you so much my Bim Bim💗',
     date: 'Winter 2024' 
   },
   { 
@@ -178,6 +178,15 @@ const LETTERS: Letter[] = [
     content: "You're such an interesting person, I love love how you are a blend of compassion and 'hard guy' all in one package. You're a very grounded person and I love that I have someone like you in my life🤭. It took a little while for us to get where we are right now but I'm grateful for the gift of you❤️❤️. I cherish and love love you so so muchhhhh.",
     signature: "Deborah🌚🌚"
   }
+  {
+    id: 7,
+    title: "To my princess of Jos",
+    content: "You’re such a kind and sweet girl and I love you soooo much. I love how we’re soooo weird together and I’m proud of the progress we’ve both made on our character. I’m so excited for more progress this year and I’m forever rooting for youuu.",
+    signature: "Ayomi"
+  }
+  
+
+
 ];
 
 // --- END OF PERSONALIZATION SECTION ---
