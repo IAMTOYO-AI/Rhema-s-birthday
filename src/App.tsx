@@ -69,15 +69,15 @@ const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756516/IMG_9571_vbz6xp.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756287/e9dea867-2968-4e93-ba0b-aac9661b5249_qyb3bm.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756219/photo_2026-02-10_06.49.38_cgwcsp.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756219/photo_2026-02-10_06.49.38_cgwcsp.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756516/IMG_9571_vbz6xp.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756625/23d60f27-a37e-42ad-992d-7933860ec3d1_3_b6xv8c.jpg",
 ];
 const MEMORIES: Memory[] = [
   { 
@@ -148,7 +148,7 @@ const LETTERS: Letter[] = [
     id: 2,
     title: "My Bim Bim 🤍",
     content: "I've seen you grow I've seen you push through, and I am so pround of you. This song reminds me of you and it reminds me of how far we have come. I love you my girl. You’re a breath of fresh air and someone I can truly call my friend. Thank you for always being dear(wordplay fully intended 😉). Happy birthday, my queen. Till we’re old and grey o🤍",
-    signature: "Yours truly <br \> Feyi❤️"
+    signature: "Yours truly Feyi❤️"
   },
    {
     id: 3,
