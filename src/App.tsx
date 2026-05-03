@@ -423,7 +423,7 @@ export default function App() {
               </div>
               <div>
                 <h2 className="serif text-3xl md:text-5xl font-bold text-gray-900">Photobook</h2>
-                <p className="text-gray-500 mt-2 italic">A collection of moments that define us.</p>
+                <p className="text-gray-500 mt-2 italic">A collection of moments that define you.</p>
               </div>
             </div>
             <div className="hidden md:block">
