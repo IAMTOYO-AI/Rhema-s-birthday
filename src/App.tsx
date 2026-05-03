@@ -182,7 +182,7 @@ const LETTERS: Letter[] = [
     title: "To my princess of Jos",
     content: "You’re such a kind and sweet girl and I love you soooo much. I love how we’re soooo weird together and I’m proud of the progress we’ve both made on our character. I’m so excited for more progress this year and I’m forever rooting for youuu.",
     signature: "Ayomi"
-  }
+  },
   {
     id: 8,
     title: "To Bim",
