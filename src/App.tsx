@@ -88,21 +88,21 @@ const MEMORIES: Memory[] = [
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646523/memory2_skhnvn.jpg',
     caption: 'Where it all started.', 
     story: 'Even if I forgot every other day, I don’t think I could ever forget the day our story began. It was supposed to be just another normal day at the office with Stephanie, nothing special, nothing planned. But somehow, that ordinary day became one of the best days of my life. I remember seeing your pictures before we even met and wondering who you were. There was something about you that caught my attention. I didn’t say it out loud then, but I knew I was already a little drawn to you. Curious, interested. Maybe even a bit more than I wanted to admit at the time. And then Steph, being Steph, didn’t hesitate for a second. She looked at me and said we would be perfect for each other. I laughed it off, of course but deep down, I didn’t completely disagree. When we finally met, it felt awkward like first meetings usually do. I am so happy something so random ended up giving me the best partner I could ever wish for.',
-    date: 'May 2025' 
+    
   },
   { 
     id: 2, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg',
     caption: 'Our first date.', 
     story: 'The walls were filled with color, meaning, stories but honestly, I barely remember most of the art. What I remember is you.We weren’t dating yet. Nothing was official. But you knew. I think that’s what made everything feel a little more real, a little more fragile. Every conversation felt like it mattered more than it should have for a casual day out. We looked at artworks, pretending to focus on the paintings, but really, we were just learning each other. The way you spoke, the way you laughed, the little pauses before you said something honest I noticed all of it. It didn’t feel like small talk. It felt like the beginning of something, even if neither of us said it out loud.There was this quiet comfort too. No pressure, no labels, no expectations. Just two people choosing to be there, choosing to talk, choosing to stay a little longer than necessary.Looking back, it’s funny how something so simple became so important. No big moment, no dramatic confession  just conversations in a room full of art. But somehow, that was enough.',
-    date: 'August 2025' 
+    
   },
   { 
     id: 3, 
      url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777736365/DD088ABC-A44B-4EB2-A0AE-0D98B1019972_1_105_c_adbvw6.jpg',
     caption: 'Late night calls', 
     story: 'There’s something about our late night calls that feels like a world of its own. The day would be loud and busy but the night always belonged to us. It didn’t matter how tired I was or how long the day had been hearing your voice made everything slow down. We’d talk about anything and everything. Sometimes it was deep conversations about life, dreams, and the future. Other times it was the most random, unserious things that somehow had us laughing so much. And then there were those quiet moments when neither of us had much to say(comfortable silence like you would always say), but neither of us wanted to hang up. I’d catch myself smiling for no reason, just listening to you speak on the other end. Time didn’t feel real anymore. Minutes turned into hours, and somehow it still never felt like enough. There were nights we told each other, “just five more minutes,” but five minutes with you always turned into one more hour. Sleep could wait. And even after the call ended, it didn’t really feel like you were gone. Your voice would stay in my head, your laughter replaying like a favorite song I didn’t want to turn off. Those calls weren’t just conversations. They were where I felt closest to you.',
-    date: 'Late Nights',
+  
     
   },
   { 
@@ -110,35 +110,35 @@ const MEMORIES: Memory[] = [
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777758293/photo_2026-05-02_22.21.08_gnaqvz.jpg',
     caption: 'Memories with Feyi', 
     story: 'I can’t even remember if class was cancelled that day or if it was one of those times we had to go and get cash for something but I do remember how you made us walk all the way to Access Bank just to take pictures 😭😂. All in the name of "keeping memories". You’re always saying "keep memories", and I’m honestly so grateful you do because now we have so many little pieces of us to hold on to. Like that one when you were roommates with Jewel and I was under your blanket 😂😂. We’ve made so many memories together, and I love that we didn’t just live them, we captured them. We get to look back and feel them all over again. I really love how we live and exist. Simple and full. I love you, Bim Bim 🤍. Cheers to many more years of keeping memories together 🥂✨ hehe',
-    date: 'June 2024' 
+     
   },
 { 
     id: 5, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777833483/photo_2026-05-03_19.15.27_hnojya.jpg',
     caption: 'Memories with Posi', 
     story: 'On this day, we had a call because I forgot my password yet again😂. Then right after, we spoke about me having to leave Quidax and I had said I wanted to give up. But you encouraged me and that pushed me to keep on fighting. I keep referencing this story because if you didn’t hold my grounded that time, I would have missed out on a destiny moment. This is to thank you again. I’d forever be grateful my girllll. For always pushing to do the things I’m too shy to do, thank you. For always having serious conversations in the weirdest possible ways, thank you. For making me feel so special on my 19th birthday, I say thank you again. Thank you so much my Bim Bim💗',
-    date: 'Winter 2024' 
+     
   },
   { 
     id: 6, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg',
     caption: 'Our favorite quiet moments.', 
     story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
-    date: 'Winter 2024' 
+    
   },
     { 
     id: 7, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg',
     caption: 'Our favorite quiet moments.', 
     story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
-    date: 'Winter 2024' 
+    
   },
   { 
     id: 8, 
     url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777646522/memory1_i09d08.jpg',
     caption: 'Our favorite quiet moments.', 
     story: 'Sometimes the best memories aren\'t the ones where we did big things, but the ones where we did nothing at all. This was one of those cold mornings where we stayed in, shared a single blanket, and just talked about everything and nothing.\n\nThe world outside was rushing, but inside, time had stopped. I think that\'s your superpower—you create a sanctuary wherever you go. Thank you for being my peace, Rhema.',
-    date: 'Winter 2024' 
+    
   },
   ];
 const LETTERS: Letter[] = [
