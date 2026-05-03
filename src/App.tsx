@@ -144,8 +144,8 @@ const LETTERS: Letter[] = [
   {
     id: 1,
     title: "My Princess❤️",
-    content: "Words can't describe how amazing you are, knowing you has brought so much peace and joy, from the laughters, to the fights, to the late night talks, to the dates, every single moment with you feels so special. Happy Birthday my princess, I love you so much❤️",
-    signature: "Toyosi, Yours Always"
+    content: "Words can't describe how amazing you are, knowing you has brought so much peace and joy, from the laughters, to the fights, to the late night talks, to the dates, every single moment with you feels so special. At times I think back to how life was without you and I wonder why I didn't meet you sooner. The love I have for you is way more than you can imagine, I am rooting for you big time and I can't imagine how life would be without you, this is to many more years together, definitely forever, living the life that God has ordained us for. Happy Birthday my princess, I don't just see you as my babe, we both know that sooner than later you would walk down that aisle with me waiting for you at the other end. I love you so much❤️",
+    signature: "Toyosi❤️, Assistant Birthday Boy"
   },
   {
     id: 2,
