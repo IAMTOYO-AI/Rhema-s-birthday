@@ -209,14 +209,6 @@ export default function App() {
   
   
 
-  // Auto-scroll chat
-// Updated Auto-scroll chat
-useEffect(() => {
-  // This prevents the page from jumping to the bottom when first loaded
-  if (isFirstMount.current) {
-    isFirstMount.current = false;
-    return;
-  }
   
   chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
 }, [messages, isTyping]);
