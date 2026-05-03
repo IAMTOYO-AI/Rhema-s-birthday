@@ -66,7 +66,7 @@ const PHOTO_DUMP = [
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777757307/photo_2026-04-18_20.25.58_yimupb.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756685/751ef8c1-78c2-465c-b6d0-ff4155760632_3_pwvdwg.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756516/IMG_9571_vbz6xp.jpg",
-  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802867/8B34DA4E-4922-4955-AA2A-BF70BEA1E5D1_lnkngh.jpg",
+  "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802867/85b16df2-975a-4e49-8eaf-3f90e621c2bd_g9zqwb.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756287/e9dea867-2968-4e93-ba0b-aac9661b5249_qyb3bm.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777802864/photo_2025-11-03_23.16.29_m3iclq.jpg",
   "https://res.cloudinary.com/dsuutxrh8/image/upload/v1777756219/photo_2026-02-10_06.49.38_cgwcsp.jpg",
