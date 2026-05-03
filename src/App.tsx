@@ -422,7 +422,7 @@ export default function App() {
                 <Sparkles className="w-8 h-8 text-romantic-500" />
               </div>
               <div>
-                <h2 className="serif text-3xl md:text-5xl font-bold text-gray-900">Our Photobook</h2>
+                <h2 className="serif text-3xl md:text-5xl font-bold text-gray-900">Photobook</h2>
                 <p className="text-gray-500 mt-2 italic">A collection of moments that define us.</p>
               </div>
             </div>
