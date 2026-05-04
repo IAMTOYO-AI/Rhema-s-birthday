@@ -7,6 +7,7 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Heart, Stars, MessageCircle, Image as ImageIcon, BookOpen, Send, Sparkles, ChevronDown } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
+import { Analytics } from '@vercel/analytics/react';
 import { getHeartfeltReply } from './services/gemini';
 
 
@@ -608,6 +609,7 @@ export default function App() {
       <footer className="py-12 bg-white text-center border-t border-romantic-100 relative z-10">
         <p className="serif italic text-gray-400">Made with a heart full of love for my {RHEMA_NAME}.</p>
       </footer>
+      <Analytics />
     </div>
   );
 }
