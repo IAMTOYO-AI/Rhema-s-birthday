@@ -131,6 +131,12 @@ const MEMORIES: Memory[] = [
     caption: 'Our last date', 
     story: '  If I had to pick my favorite days then this day would definitely be one of them. I got there first, pretending not to check my phone every thirty seconds because I could not wait to see you. The moment you arrived, the whole place felt warmer. We had our conversations, took pictures and tried the zootopia chanllenge you forced me to do, I really liked it sha. The movie started, but honestly it became background noise. Not because it was bad, but because every now and then, I’d glance over to look at how beautiful you are. I remember how much you wanted to sleep but I would not let you. If I forgot any part of that day it would definitely not be the adventure we had at the end of the day, it was nice but babe we are never doing that again😂 ',
   },
+  { 
+    id: 8, 
+    url: 'https://res.cloudinary.com/dsuutxrh8/image/upload/v1777877054/photo_2026-05-04_07.41.35_l53v0k.jpg',
+    caption: 'Memories with Vee', 
+    story: ' I don’t even remember how we became friends but I know that being friends with you have been an amazing experience. From the smile to the laughter to reading for those coding courses together to sleeping on your bed to taking weird selfies. I am so glad we are friends and I pray God will strengthen you and keep you. Happy birthday my short pookito ❤️',
+  },
   ];
 const LETTERS: Letter[] = [
   {
@@ -180,7 +186,14 @@ const LETTERS: Letter[] = [
     title: "To Bim",
     content: "Xup bbg, you mean so much to me, no one can replace the spot you hold in my heart. You’ve been such an integral part of my relationship with Jesus, and you’d be surprised how often your name comes up when I talk about the people I adore. Happy Birthday, supergirl, yes you really can do it all!",
     signature: "Juloo, your housewife"
+  },
+   {
+    id: 9,
+    title: "My Bim bim",
+    content: "Hi Girl Happy birthday my love. Thank you for being an amazing person. Thank you for always showing up. I love you(p.s that’s AI ) 😂",
+    signature: "Vee"
   }
+  
   
 
 
