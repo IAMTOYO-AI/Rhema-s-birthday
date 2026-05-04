@@ -147,8 +147,8 @@ const LETTERS: Letter[] = [
   },
    {
     id: 3,
-    title: "To My Rhema",
-    content: "There are words, and then there is you. Words try to capture beauty, but you redefine it every morning. Happy birthday to the one who makes reality better than my dreams.",
+    title: "My rhemaaaaa ❤️",
+    content: "Happy birthday my sweet girl. I wish I can give you the whole world because you deserve it. You are strong and I’m so proud of you so, so proud of you. Of how you show up and get the work done, you don’t make excuses, but you stay, and I’m so proud of you. I’m grateful for the friendship with you. I’m grateful that we are growing. I’m grateful and proud of the woman you are and the woman you are becoming. You have grown in wisdom and strength. I pray that in this new year you experience God more deeply and your heart for Him grows. You know the Lord, Rhema, very deeply. I pray this year you experience ease in all you do. All this suffering and stress—they will pay off. It will count for something. All that God will have you do, you will do well. God hears you and God sees you. I’m super proud of you, my girl. I love you deeply ❤️",
     signature: "Stephanie"
   },
    {
